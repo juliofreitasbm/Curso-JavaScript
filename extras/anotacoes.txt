@@ -1,0 +1,56 @@
+	MODULO A - AULA 01 - O QUE JAVASCRIPT É CAPAZ DE FAZER?
+
+Cliente vs Servidor: o JavaScript foi criado para atuar no lado do Cliente, mas hoje também alcança o lado do servidor
+
+HTML: conteúdo
+CSS: estilo
+JavaScript: interação
+
+	MODULO A - AULA 02 - COMO NÓS CHEGAMOS AQUI?
+
+ECMASCRIPT : Versão do JavaScript padronizada pela Associação Europeia de Fabricantes de Computadores (ECMA)
+
+Motor interno dos navegadores que roda JavaScript:
+	Google Chrome: V8
+		Vantagem: gerava códigos JIT (Just in Time), Código aberto
+	Firefox: Spidermonkey
+	Safari: Nitro
+	Opera: Carakan
+	Microsoft Edge: chakra
+
+Curso será focado no ES6 de 2015
+
+Tecnologias
+	jQuery: Não é framework, é um conjunto de bibliotecas, não é mais tão famoso atualmente, criado por uma galera da Mozilla
+	Angular: de 2009, criado e mantido pelo Google, facilita criação de aplicações web, linguagem menos imperativa e mais declarativa (semelhante ao SQL para banco de dados). Existe uma treta entre o Angular JS e o Angular (versão 2 pra cima)
+	React: do Facebook, mais ou menos a mesma funcionalidade do Angular, mas com flexibilidades maiores
+	React Native: aplicações em celular
+	Vue: de 2014, framework muito poderoso (estude depois), versão melhor do Angular
+	Electron: mantido pela GitHub, criação de interfaces gráficas, usado no VSCode, slack e discord.
+	IONIC: SDK (Software Development Kit) pra criar aplicações para dispositivos móveis, utiliza Node.js, utiliza Cordova
+
+Gaming
+	Phaser
+	PixiJS
+	Impact
+	Melon.JS
+	CraftyJS
+
+	MODULO A - AULA 03 - COMEÇANDO
+
+Para aprender:
+	Assistir vídeo
+	Praticar
+	Ler conteúdo
+	Fazer anotações
+	Interagir com outras pessoas
+	Comece a pensar em projetos próprios
+
+Bibliografia
+	JavaScript o guia definitivo (editora O"Relly")
+	Guia do Programador (Não ta tão atualizado)
+	Guia de referência da Mozilla:
+	Guia de referência da ECMA:
+
+OBS: Nem sempre é tão importante estudar a versão mais atualizada porque os navegadores levam tempo para implementá-las
+
