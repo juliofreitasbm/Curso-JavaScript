@@ -54,3 +54,19 @@ Bibliografia
 
 OBS: Nem sempre é tão importante estudar a versão mais atualizada porque os navegadores levam tempo para implementá-las
 
+	MODULO B - Aula 05 - VARIÁVEIS E TIPOS PRIMITIVOS 
+
+Variáveis em JavaScript
+	Podem começar com letra, $ ou _
+	Não podem começar com números
+	É possível usar letras ou números
+	É possível usar acentos e símbolos
+	Não podem conter espaços
+	Não podem ser palavras reservadas
+
+Dicas de Variáveis
+	Maiusculas e minísculas fazem diferença
+	Tente escolher nomes coerentes para as Variáveis
+
+Comando
+	typeoff : retorna o tipo de uma variável
