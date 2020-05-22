@@ -56,7 +56,7 @@ OBS: Nem sempre é tão importante estudar a versão mais atualizada porque os n
 
 	MODULO B - Aula 05 - VARIÁVEIS E TIPOS PRIMITIVOS 
 
-Variáveis em JavaScript
+Identificador de Variáveis
 	Podem começar com letra, $ ou _
 	Não podem começar com números
 	É possível usar letras ou números
@@ -69,4 +69,51 @@ Dicas de Variáveis
 	Tente escolher nomes coerentes para as Variáveis
 
 Comando
-	typeoff : retorna o tipo de uma variável
+	typeoff //retorna o tipo de uma variável
+	pode usar tanto "var" como "let" pra criar variáveis
+
+Data Types
+	number
+		Infinity
+		Nan
+	string
+	boolean
+	null
+	undefined
+	object
+	function
+
+	MODULO B - Aula 06 - Tratamento de Dados
+
+Comentário:
+	HTML: <-- -->
+	CSS: /*  */
+	JavaScript: /*  */ ou //
+
+String > Number
+	Number.parseInt(n)
+	Number.parseFloat(n)
+	Number(n)
+
+Number > String
+	String(n)
+	n.toString()
+
+Formatando strings
+	var s = 'JavaScript'
+	'Eu estou aprendendo ' + s //concatenação
+	`Eu estou aprendendo ${s}` //usa template string
+	obs: ${s} é um placeholder
+
+	n.length //quantos caracteres tem uma string
+	n.toUpperCase() // deixar tudo maiúsculo
+	n.toLowerCase() // deixar tudo minúsculo
+
+	document.write(n) //para escrever
+
+Formatando números
+	n.toFixed(2) //aumenta o número de casas decimais para 2
+	n.toFixex(2).repace('.', ',') //troca ponto por vírgula no número
+	n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //muda o número para o padrão de real brasileiro
+	n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) //muda o número para o padrão de dólar
+	n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //muda o número para o padrão de euro
