@@ -165,3 +165,37 @@ Precedência de todos os OPERADORES
 	&&
 	||
 
+	MODULO C - AULA 09 - Introdução à DOM
+
+DOM - Document Object Model (modelo de objetos para documentos)
+	É um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website
+	Ele não funciona dentro do node.JS. Ele está presente quando roda JavaScript dentro do navegador
+
+Árvore DOM
+	
+				-location
+											-meta
+									-head
+											-title
+window 			-document	-html
+
+									-body
+											-h1
+				-history					-p
+											-p	-strong
+											-div
+
+Métodos de Acesso à DOM
+	por Marca
+		getElementsByTagName()	//pega mais de um elemento
+
+	por ID
+		getElementById()
+	por Nome
+		getElementsByName()
+	por Classe
+		getElementsByClassName()
+	por Seletor
+		querySelector()
+		querySelectorAll()
+		obs: usar # para ID e . para class
