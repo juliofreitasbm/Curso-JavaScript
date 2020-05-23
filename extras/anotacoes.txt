@@ -199,3 +199,16 @@ Métodos de Acesso à DOM
 		querySelector()
 		querySelectorAll()
 		obs: usar # para ID e . para class
+
+	MODULO C - AULA 10 - Eventos DOM
+
+Eventos para Mouse
+	mouseenter
+	mousemove
+	mousedown
+	mouseup
+	click
+	mouseout
+
+	mais eventos: 	https://developer.mozilla.org/pt-BR/docs/Web/Events
+					https://developer.mozilla.org/en-US/docs/Web/Events
