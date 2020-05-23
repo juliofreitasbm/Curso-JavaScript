@@ -69,7 +69,7 @@ Dicas de Variáveis
 	Tente escolher nomes coerentes para as Variáveis
 
 Comando
-	typeoff //retorna o tipo de uma variável
+	typeoff //retorna o tipo de uma variável - é um tipo de operador
 	pode usar tanto "var" como "let" pra criar variáveis
 
 Data Types
@@ -117,3 +117,51 @@ Formatando números
 	n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //muda o número para o padrão de real brasileiro
 	n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) //muda o número para o padrão de dólar
 	n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //muda o número para o padrão de euro
+
+	MODULO B - AULA 07 E 08 - OPERADORES 
+
+Principais Tipos:
+	aritméticos
+		soma: +
+		subtração: -
+		multiplicação: *
+		divisão: /
+		resto da divisão inteira: %
+		potência: **
+	atribuição
+		recebe: =
+	relacionais
+		maior que: >
+		menor que: <
+		maior ou igual que: >=
+		menor ou igual que: <=
+		igual a: ==
+		diferente de: !=
+		igualdade restrita (é identico a): === //funciona igual a do C. Considera o tipo da variável
+
+		Ex:
+		5 == 5 //True
+		5 == '5' //True
+		5 === '5' //False
+		5 === 5 //True
+	lógicos
+		negação: !
+		conjunção(E lógico): &&
+		disjunção(OU lógico): || 
+	ternário
+		TESTE ? True : False
+		média >= 7 ? "Aprovado" : "Reprovado" 
+
+Precedência dos OPERADORES Aritméticos
+	()
+	**
+	*, /, %
+	+, -
+
+Precedência de todos os OPERADORES
+	(), **, /, ...
+	>, <, >=, ...
+	!
+	&&
+	||
+
