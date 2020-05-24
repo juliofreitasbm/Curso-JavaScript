@@ -241,3 +241,5 @@ Dias da Semana em JavaScript
 Centralização
 	Para section usar margin: auto;
 	Para header e footer usar text-align: center;
+
+	onload="function()" //onload é ao carregar
