@@ -283,3 +283,8 @@ Estrutura de Repetição com variável de controle
 		antes de fazer o próximo teste
 	*/
 	for() {}
+
+	MODULO E - EXERCÍCIOS JAVASCRIPT
+
+Emojis
+	https://apps.timwhitlock.info/emoji/tables/unicode
