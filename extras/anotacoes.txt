@@ -243,3 +243,4 @@ Centralização
 	Para header e footer usar text-align: center;
 
 	onload="function()" //onload é ao carregar
+	onde pegar fotos gratuitas: https://www.pexels.com/pt-br
