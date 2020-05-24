@@ -199,3 +199,39 @@ Métodos de Acesso à DOM
 		querySelector()
 		querySelectorAll()
 		obs: usar # para ID e . para class
+
+	MODULO C - AULA 10 - Eventos DOM
+
+Eventos para Mouse
+	mouseenter
+	mousemove
+	mousedown
+	mouseup
+	click
+	mouseout
+
+	mais eventos: 	https://developer.mozilla.org/pt-BR/docs/Web/Events
+					https://developer.mozilla.org/en-US/docs/Web/Events
+
+	MODULO D - AULA 11 e AULA 12- CONDICÕES
+
+Tipos de Condições
+	Condição simples: só o if
+	Condição composta: if e else
+	Condições aninhadas: condições dentro de condições
+	Condições multiplas: serve para valores fixos (só números inteiros e caracteres) // switch()
+
+Pegando a hora do sistema
+	var agora = new Date()
+	var hora = agora.getHours()
+
+Dias da Semana em JavaScript
+	var agora = new Date()
+	var diaSem = agora.getDay()
+	0 é Domingo
+	1 é Segunda
+	2 é Terça
+	3 é Quarta
+	4 é Quinta
+	5 é Sexta
+	6 é Sábado
