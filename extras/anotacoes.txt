@@ -235,3 +235,9 @@ Dias da Semana em JavaScript
 	4 é Quinta
 	5 é Sexta
 	6 é Sábado
+
+	MODULO D - AULA DE EXERCÍCIO PARTE 1
+
+Centralização
+	Para section usar margin: auto;
+	Para header e footer usar text-align: center;
