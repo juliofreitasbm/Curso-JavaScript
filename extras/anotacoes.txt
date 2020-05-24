@@ -236,7 +236,7 @@ Dias da Semana em JavaScript
 	5 é Sexta
 	6 é Sábado
 
-	MODULO D - AULA DE EXERCÍCIO PARTE 1
+	MODULO D - AULA DE EXERCÍCIO 1
 
 Centralização
 	Para section usar margin: auto;
@@ -244,3 +244,31 @@ Centralização
 
 	onload="function()" //onload é ao carregar
 	onde pegar fotos gratuitas: https://www.pexels.com/pt-br
+
+	MODULO D - AULA DE EXERCÍCIO 2
+
+Mudando background do body
+	document.body.style.background = '#cecece"
+
+	MODULO D - AULA DE EXERCÍCIO 3
+
+Criando tag imagem no JavaScript
+	var img = document.createElement('img')
+
+Colocando um id na tag imagem
+	img.setAttribute('id', 'foto')
+
+Colocando um "src" na imagem
+	img.setAttribute('src', 'foto-bebe-f.png')
+
+Colocando imagem dentro de uma div
+	var res = document.querySelector('div#res')
+	res.appendChild(img)
+
+	MODULO E - LAÇOS DE REPETIÇÃO
+
+Estrutura de Repetição com teste lógico no início
+	while() {}
+
+Estrutura de Repetição com teste lógico no funcionalidade
+	do { } while()
