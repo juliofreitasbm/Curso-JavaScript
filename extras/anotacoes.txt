@@ -272,3 +272,14 @@ Estrutura de Repetição com teste lógico no início
 
 Estrutura de Repetição com teste lógico no funcionalidade
 	do { } while()
+
+Estrutura de Repetição com variável de controle
+	Inicialização
+	Teste lógico
+	Incremento
+	/*	
+		Executa primeiro a inicialização e o teste
+		Se o teste for verdadeiro executa o bloco e faz o incremento
+		antes de fazer o próximo teste
+	*/
+	for() {}
