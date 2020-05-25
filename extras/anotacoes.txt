@@ -297,8 +297,6 @@ Variáveis
 Array
 	É composto por vários elementos. Cada elemento tem um valor e uma chave de identificação
 
-	MODULO F - AULA 16 - VARIÁVEIS COMPOSTAS
-
 PRINTAR ELEMENTOS (let num)
 	console.log(num) //imprime os valores do vetor envolvidos por colchetes
 	console.log(`O vetor é ${num}`) //imprime os valores do vetor sem os colchetes
@@ -308,3 +306,20 @@ PRINTAR ELEMENTOS (let num)
 	num.sort() // ordenar elementos do vetor
 	for(let pos in num) // forma simplificada de passar por todos os elementos de um vetor
 	num.indexOf(7) // retorna o index do elemento com valor 7. Retorna -1 se não tiver o valor
+
+	MODULO F - AULA 16 - FUNÇÕES
+
+Estrutura
+	Chamada
+	Parâmetros // nem toda função usa parâmetros
+	Retorno	// nem toda função tem retornos
+	Ação
+
+Parâmetros Opcionais
+	somar (n1=0, n2=0) // atribuindo um valor aos parâmetros dessa maneira caso o usuário só coloque um dos parâmetros na chamada da função então o JavaScript utilizará o valor pré-definido que você escolheu (nesse caso o 0)
+
+Variável recebe função
+	let dobro = function(x) { 
+		return 2*x
+	}	
+	//É possível fazer uma variável receber uma função e para chamá-la depois só precisamos escrever dobro(5), por exemplo
