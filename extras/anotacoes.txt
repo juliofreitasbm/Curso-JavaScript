@@ -235,3 +235,64 @@ Dias da Semana em JavaScript
 	4 é Quinta
 	5 é Sexta
 	6 é Sábado
+
+	MODULO D - AULA DE EXERCÍCIO 1
+
+Centralização
+	Para section usar margin: auto;
+	Para header e footer usar text-align: center;
+
+	onload="function()" //onload é ao carregar
+	onde pegar fotos gratuitas: https://www.pexels.com/pt-br
+
+	MODULO D - AULA DE EXERCÍCIO 2
+
+Mudando background do body
+	document.body.style.background = '#cecece"
+
+	MODULO D - AULA DE EXERCÍCIO 3
+
+Criando tag imagem no JavaScript
+	var img = document.createElement('img')
+
+Colocando um id na tag imagem
+	img.setAttribute('id', 'foto')
+
+Colocando um "src" na imagem
+	img.setAttribute('src', 'foto-bebe-f.png')
+
+Colocando imagem dentro de uma div
+	var res = document.querySelector('div#res')
+	res.appendChild(img)
+
+	MODULO E - LAÇOS DE REPETIÇÃO
+
+Estrutura de Repetição com teste lógico no início
+	while() {}
+
+Estrutura de Repetição com teste lógico no funcionalidade
+	do { } while()
+
+Estrutura de Repetição com variável de controle
+	Inicialização
+	Teste lógico
+	Incremento	
+		//Executa primeiro a inicialização e o teste. Se o teste for verdadeiro executa o bloco e faz o incremento antes de fazer o próximo teste
+	for() {}
+
+	MODULO E - EXERCÍCIOS JAVASCRIPT
+
+Emojis
+	https://apps.timwhitlock.info/emoji/tables/unicode
+
+Masoquê?
+	Por algum motivo que só deus sabe botões do tipo "number" devolvem um input do tipo string então é necessário usar o Number(n.value) para um input "n" por exemplo
+
+	MODULO F - AULA 15 - VARIÁVEIS COMPOSTAS
+
+Variáveis
+	Simples: só conseguem armazenar um valor por vez
+	Compostas: devem ser capazes de armazenar vários valores em uma mesma estrutura
+
+Array
+	É composto por vários elementos. Cada elemento tem um valor e uma chave de identificação
