@@ -296,3 +296,15 @@ Variáveis
 
 Array
 	É composto por vários elementos. Cada elemento tem um valor e uma chave de identificação
+
+	MODULO F - AULA 16 - VARIÁVEIS COMPOSTAS
+
+PRINTAR ELEMENTOS (let num)
+	console.log(num) //imprime os valores do vetor envolvidos por colchetes
+	console.log(`O vetor é ${num}`) //imprime os valores do vetor sem os colchetes
+	num[3] = 6 // se o vetor for do índice 0 ao índice 2 quando executar esse comando será criado um novo índice
+	num.push(7) // irá criar um elemento novo no final do vetor independente de qual seja o seu tamanho e preenchê-lo com o valor 7
+	num.length // retorna o comprimento do array
+	num.sort() // ordenar elementos do vetor
+	for(let pos in num) // forma simplificada de passar por todos os elementos de um vetor
+	num.indexOf(7) // retorna o index do elemento com valor 7. Retorna -1 se não tiver o valor
