@@ -14,7 +14,4 @@ function tabuada() {
 			tab.appendChild(item)
 		}
 	}
-
-
-
 }

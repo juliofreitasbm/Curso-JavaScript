@@ -287,3 +287,12 @@ Emojis
 
 Masoquê?
 	Por algum motivo que só deus sabe botões do tipo "number" devolvem um input do tipo string então é necessário usar o Number(n.value) para um input "n" por exemplo
+
+	MODULO F - AULA 15 - VARIÁVEIS COMPOSTAS
+
+Variáveis
+	Simples: só conseguem armazenar um valor por vez
+	Compostas: devem ser capazes de armazenar vários valores em uma mesma estrutura
+
+Array
+	É composto por vários elementos. Cada elemento tem um valor e uma chave de identificação
