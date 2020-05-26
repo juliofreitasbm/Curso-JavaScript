@@ -331,3 +331,32 @@ Dica de Interatividade
 	Ao utilizar uma caixa de texto para receber vários inputs (numéricos ou strings) utilizar:
 	num.value = '' //para limpar a caixa de texto
 	num.focus() //para posicionar a barra de digitação na caixa novamente
+
+	MODULO F - AULA 17 - PRÓXIMOS PASSOS
+
+SOBRE FUNÇÕES (JS é uma linguagem funcional)
+	arrow functions
+	callbacks
+	funções anônimas
+	IIFE's
+	JavaScript funcional
+
+SOBRE OBJETOS (JS é uma linguagem Orientada a Objetos)
+	declarar objetos
+	utilizar objetos
+
+SOBRE ORGANIZAÇÃO
+	modularização //deixar códigos separados em arquivos separados, reutilizar códigos
+
+OUTROS
+	expressões regulares (RegEx) //É uma maravilha pra validação de dados. Economiza tempo e código
+	JSON //estrutura de objeto que você consegue transmitir dados e salvar dados localmente
+	AJAX //tecnologia que é utilizada em páginas com rolagem infinita
+	NodeJS //Aprenda a fazer seus scripts rodarem no servidor
+	Aprenda sobre CLASSES para poder replicar objetos
+
+BIBLIOTECAS/FRAMEWORKS
+	jQuery
+	VueJS
+	Angular
+

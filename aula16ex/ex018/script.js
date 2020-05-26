@@ -32,7 +32,7 @@ function adicionar() {
 	}
 	num.value = ''
 	num.focus()
-
+ 
 }
 
 function finalizar() {
