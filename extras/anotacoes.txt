@@ -326,3 +326,8 @@ Variável recebe função
 
 DICA DE CSS
 	Utilizar porcentagem em width e height para criar sites mais responsivos.
+
+Dica de Interatividade
+	Ao utilizar uma caixa de texto para receber vários inputs (numéricos ou strings) utilizar:
+	num.value = '' //para limpar a caixa de texto
+	num.focus() //para posicionar a barra de digitação na caixa novamente
