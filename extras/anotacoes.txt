@@ -323,3 +323,6 @@ Variável recebe função
 		return 2*x
 	}	
 	//É possível fazer uma variável receber uma função e para chamá-la depois só precisamos escrever dobro(5), por exemplo
+
+DICA DE CSS
+	Utilizar porcentagem em width e height para criar sites mais responsivos.
